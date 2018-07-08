@@ -2,6 +2,10 @@
 
 > Use [apiDoc](http://apidocjs.com/) to create a [Postman](https://www.getpostman.com) collection.
 
+[![license](https://img.shields.io/github/license/panz3r/apidoc-postman.svg)](https://github.com/panz3r/apidoc-postman/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/panz3r/apidoc-postman.svg)](https://travis-ci.org/panz3r/apidoc-postman)
+[![npm](https://img.shields.io/npm/v/@panz3r/apidoc-postman.svg)](https://www.npmjs.com/package/@panz3r/apidoc-postman)
+
 This library uses the [apidoc-core](https://github.com/apidoc/apidoc-core) library.
 
 ## How It Works
