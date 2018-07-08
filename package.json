@@ -1,6 +1,6 @@
 {
   "name": "@panz3r/apidoc-postman",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MPL-2.0",
   "description": "A tool to generate Postman collections from apiDoc Inline Documentation",
   "author": {
