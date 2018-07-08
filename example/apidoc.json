@@ -1,0 +1,12 @@
+{
+  "name": "apidoc-example",
+  "version": "0.3.0",
+  "description": "apidoc example project",
+  "title": "Custom apiDoc browser title",
+  "url" : "https://api.github.com/v1",
+  "sampleUrl": "https://api.github.com/v1",
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}

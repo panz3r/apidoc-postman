@@ -1,0 +1,6 @@
+# All
+*
+
+# But not
+!bin/**
+!lib/**

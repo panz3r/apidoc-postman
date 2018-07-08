@@ -1,0 +1,35 @@
+{
+  "name": "@panz3r/apidoc-postman",
+  "version": "1.0.3",
+  "license": "MPL-2.0",
+  "description": "A tool to generate Postman collections from apiDoc Inline Documentation",
+  "author": {
+    "name": "Mattia Panzeri",
+    "email": "mattia.panzeri93@gmail.com",
+    "url": "https://github.com/panz3r"
+  },
+  "keywords": [
+    "apidoc",
+    "postman"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panz3r/apidoc-postman"
+  },
+  "bugs": {
+    "url": "https://github.com/panz3r/apidoc-postman/issues"
+  },
+  "homepage": "https://github.com/panz3r/apidoc-postman#readme",
+  "bin": "bin/apidocPostman.js",
+  "scripts": {
+    "build:example": "./bin/apidocPostman.js -i example/ -o tmp/"
+  },
+  "dependencies": {
+    "apidoc-core": "^0.8.3",
+    "fs-extra": "^6.0.1",
+    "lodash": "^4.17.10",
+    "markdown-it": "^8.4.1",
+    "nomnom": "^1.8.1",
+    "winston": "^2.3.1"
+  }
+}
