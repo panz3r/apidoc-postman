@@ -53,7 +53,7 @@ var program = commander
 
   .option("--simulate", "Execute but not write any file.", false)
 
-  .option("-m, --markdown", "Turn off default markdown parser or set a file to a custom parser.", true)
+  .option("-m, --markdown [markdown]", "Turn off default markdown parser or set a file to a custom parser.", true)
 
   .option("-l, --line-ending <line-ending>", "Turn off autodetect line-ending. Allowed values: LF, CR, CRLF.")
 
