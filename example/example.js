@@ -45,7 +45,8 @@ function getUser() {
  * @apiDescription In this case "apiErrorStructure" is defined and used.
  * Define blocks with params that will be used in several functions, so you dont have to rewrite them.
  *
- * @apiParam {String} name Name of the User.
+ * @apiParam (Body) {Number} id ID of the User.
+ * @apiParam (Body) {String} name Name of the User.
  *
  * @apiSuccess {Number} id         The new Users-ID.
  *
@@ -63,7 +64,7 @@ function postUser() {
  *
  * @apiDescription This function has same errors like POST /user, but errors not defined again, they were included with "apiErrorStructure"
  *
- * @apiParam {String} name Name of the User.
+ * @apiParam (Body) {String} name Name of the User.
  *
  * @apiUse CreateUserError
  */
