@@ -52,7 +52,22 @@ E.g. `@apiPermission user` maps to `user_token`.
 
 ### Body
 
-At the moment, `apidoc-postman` will setup `Postman` to use `application/json` body format.
+`apidoc-postman` will setup `Postman` to use `application/json` body format and will create a template body based on the `@apiParam` `Body` group.
+
+E.g. 
+```js
+/**
+ * @apiParam (Body) {Number} id ID of the User.
+ * @apiParam (Body) {String} name Name of the User.
+ */
+```
+will translate to the following template body
+```json
+{
+  "id": 0,
+  "name": "string"
+}
+```
 
 ## Example
 
